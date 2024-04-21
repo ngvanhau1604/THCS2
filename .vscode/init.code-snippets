@@ -1,0 +1,23 @@
+{
+    "Fast I/O": {
+        "scope": "cpp,cpp",
+        "prefix": "init",
+        "body": [
+            "#include <iostream>",
+            "",
+			"using namespace std;",
+            "int main() {",
+            "    std::ios_base::sync_with_stdio(false);",
+            "    std::cin.tie(NULL);",
+            "",
+            "int cases;",
+			"cin >> cases;",
+			"while (cases--) {",
+			"",
+			"}",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Faster input and output in C++"
+    }
+}
